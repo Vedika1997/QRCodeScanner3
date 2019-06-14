@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 Result.post(new Runnable() {
                     @Override
                     public void run() {
-                        Result.setText(barcode.displayValue);
+                        Result.setText(barcode.displayValue); //hi
                     }
                 });
             }
